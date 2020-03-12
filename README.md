@@ -1,5 +1,5 @@
 # ppp_splitter
-Script for splitting on pppoker app
+Script for splitting on pppoker app.
 
 Use:
 ```
