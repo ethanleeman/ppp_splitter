@@ -97,14 +97,14 @@ def main(argv):
         
         # Make the payment
         if (biggest_winner_amt > -1*biggest_loser_amt):
-            output.append("{0:<10} pays {1:<10} {2:>8.2f}".format(
+            output.append("{0:<18} pays {1:<18} {2:>8.2f}".format(
                                                 player_names[biggest_loser_index],
                                                 player_names[biggest_winner_index],
                                                 -1*biggest_loser_amt))
             player_pl[biggest_winner_index] += biggest_loser_amt
             player_pl[biggest_loser_index]  -= biggest_loser_amt  
         else:
-            output.append("{0:<10} pays {1:<10} {2:>8.2f}".format(
+            output.append("{0:<18} pays {1:<18} {2:>8.2f}".format(
                                                 player_names[biggest_loser_index],
                                                 player_names[biggest_winner_index],
                                                 biggest_winner_amt))
